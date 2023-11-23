@@ -39,7 +39,7 @@ function ContactSection() {
             <form action="forms/contact.php" method="post" role="form" className="php-email-form">
               <div className="form-group"><input className="form-control form-control" type="text" id="name" name="name" placeholder="Tu Nombre" required /></div>
               <div className="form-group"><input className="form-control form-control" type="email" id="email" name="email" placeholder="Tu Email" required /></div>
-              <div className="form-group"><input className="form-control form-control" type="text" id="subject" name="subject" placeholder="Consulta" required /></div>
+              <div className="form-group"><input className="form-control form-control" type="text" id="subject" name="subject" placeholder="Paquete a Consultar" required /></div>
               <div className="form-group"><textarea className="form-control form-control" name="message" placeholder="Mensaje" required rows={5} defaultValue={""} /></div>
               <div className="my-3">
                 <div className="loading"><span>Loading</span></div>

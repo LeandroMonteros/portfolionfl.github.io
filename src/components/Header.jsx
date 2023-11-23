@@ -14,8 +14,8 @@ function Header() {
             <li><a className="nav-link scrollto" href="#about">Nosotros</a></li>
             <li><a className="nav-link scrollto" href="#services">Servicios</a></li>
             <li><a className="nav-link scrollto" href="#portfolio">Portafolio</a></li>
-            <li><a className="nav-link scrollto" href="#paquetes">Paquetes</a></li>
-            <li><a className="nav-link scrollto" href="#contacto">Contacto</a></li>
+            <li><a className="nav-link scrollto" href="#pricing">Paquetes</a></li>
+            <li><a className="nav-link scrollto" href="#contacto">Contact</a></li>
           </ul>
           <i className="bi bi-list mobile-nav-toggle"></i>
         </nav>
