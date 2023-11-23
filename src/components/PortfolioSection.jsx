@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import image1 from '../img/portfolio/portafolio-1.jpeg';
 import image2 from '../img/portfolio/portafolio-2.jpeg';
 import image3 from '../img/portfolio/portafolio-3.jpeg';
+import { Link } from 'react-bootstrap-icons';
 
 function PortfolioSection() {
   const [filter, setFilter] = useState('*');
@@ -36,7 +37,7 @@ function PortfolioSection() {
                   <p>Hoteleria</p>
                   <div className="portfolio-links">
                     <a href={image1} data-gallery="portfolioGallery" className="portfolio-lightbox" title="App 1"></a>
-                    <a href="/portfolio-details.html" title="More Details"><i className="bx bx-link"></i></a>
+                    <a href="https://hotelserenidad.bss.design/" title="More Details"><Link /></a>
                   </div>
                 </div>
               </div>
@@ -51,7 +52,7 @@ function PortfolioSection() {
                   <p>Construccion</p>
                   <div className="portfolio-links">
                     <a href={image2} data-gallery="portfolioGallery" className="portfolio-lightbox" title="Web 3"></a>
-                    <a href="/portfolio-details.html" title="More Details"><i className="bx bx-link"></i></a>
+                    <a href="https://nicolasojea.github.io" title="More Details"><Link /></a>
                   </div>
                 </div>
               </div>
@@ -66,7 +67,7 @@ function PortfolioSection() {
                   <p>Hoteleria</p>
                   <div className="portfolio-links">
                     <a href={image3} data-gallery="portfolioGallery" className="portfolio-lightbox" title="App 2"></a>
-                    <a href="/portfolio-details.html" title="More Details"><i className="bx bx-link"></i></a>
+                    <a href="https://hotelstar.bss.design/" title="More Details"><Link /></a>
                   </div>
                 </div>
               </div>
