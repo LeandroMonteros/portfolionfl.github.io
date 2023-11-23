@@ -8,7 +8,6 @@ function PortfolioSection() {
 
   const handleFilterClick = (value) => {
     setFilter(value);
-    console.log(value);
   };
 
   return (
@@ -28,45 +27,51 @@ function PortfolioSection() {
           </div>
         </div>
         <div className="row portfolio-container" data-aos="fade-up" data-aos-delay="400">
-          <div className={`col-md-6 col-lg-4 portfolio-item ${filter}`}>
-            <div className="portfolio-wrap">
-              <img className="img-fluid" src={image1} alt="Hotel Serenidad" />
-              <div className="portfolio-info">
-                <h4>Hotel Serenidad</h4>
-                <p>Hoteleria</p>
-                <div className="portfolio-links">
-                  <a href={image1} data-gallery="portfolioGallery" className="portfolio-lightbox" title="App 1"></a>
-                  <a href="/portfolio-details.html" title="More Details"><i className="bx bx-link"></i></a>
+          {filter === '*' || filter === '.filter-app' ? (
+            <div className="col-md-6 col-lg-4 portfolio-item">
+              <div className="portfolio-wrap">
+                <img className="img-fluid" src={image1} alt="Hotel Serenidad" />
+                <div className="portfolio-info">
+                  <h4>Hotel Serenidad</h4>
+                  <p>Hoteleria</p>
+                  <div className="portfolio-links">
+                    <a href={image1} data-gallery="portfolioGallery" className="portfolio-lightbox" title="App 1"></a>
+                    <a href="/portfolio-details.html" title="More Details"><i className="bx bx-link"></i></a>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div className={`col-md-6 col-lg-4 portfolio-item ${filter}`}>
-            <div className="portfolio-wrap">
-              <img className="img-fluid" src={image2} alt="Grupo SIA" />
-              <div className="portfolio-info">
-                <h4>Grupo SIA</h4>
-                <p>Construccion</p>
-                <div className="portfolio-links">
-                  <a href={image2} data-gallery="portfolioGallery" className="portfolio-lightbox" title="Web 3"></a>
-                  <a href="/portfolio-details.html" title="More Details"><i className="bx bx-link"></i></a>
+          ) : null}
+          {filter === '*' || filter === '.filter-card' ? (
+            <div className="col-md-6 col-lg-4 portfolio-item">
+              <div className="portfolio-wrap">
+                <img className="img-fluid" src={image2} alt="Grupo SIA" />
+                <div className="portfolio-info">
+                  <h4>Grupo SIA</h4>
+                  <p>Construccion</p>
+                  <div className="portfolio-links">
+                    <a href={image2} data-gallery="portfolioGallery" className="portfolio-lightbox" title="Web 3"></a>
+                    <a href="/portfolio-details.html" title="More Details"><i className="bx bx-link"></i></a>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div className={`col-md-6 col-lg-4 portfolio-item ${filter}`}>
-            <div className="portfolio-wrap">
-              <img className="img-fluid" src={image3} alt="Stars Hotels" />
-              <div className="portfolio-info">
-                <h4>Stars Hotels</h4>
-                <p>Hoteleria</p>
-                <div className="portfolio-links">
-                  <a href={image3} data-gallery="portfolioGallery" className="portfolio-lightbox" title="App 2"></a>
-                  <a href="/portfolio-details.html" title="More Details"><i className="bx bx-link"></i></a>
+          ) : null}
+          {filter === '*' || filter === '.filter-app' ? (
+            <div className="col-md-6 col-lg-4 portfolio-item">
+              <div className="portfolio-wrap">
+                <img className="img-fluid" src={image3} alt="Stars Hotels" />
+                <div className="portfolio-info">
+                  <h4>Stars Hotels</h4>
+                  <p>Hoteleria</p>
+                  <div className="portfolio-links">
+                    <a href={image3} data-gallery="portfolioGallery" className="portfolio-lightbox" title="App 2"></a>
+                    <a href="/portfolio-details.html" title="More Details"><i className="bx bx-link"></i></a>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
+          ) : null}
         </div>
       </div>
     </section>
