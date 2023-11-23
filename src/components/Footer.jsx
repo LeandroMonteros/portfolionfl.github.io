@@ -5,9 +5,6 @@ function Footer() {
     <footer id="footer">
       <div className="container">
         <div className="row d-flex align-items-center">
-          <footer id="footer">
-            <div class="container">
-              <div class="row d-flex align-items-center">
                 <div class="col-lg-6 text-center text-lg-left">
                   <div class="copyright"><span> © Copyright </span><strong>LNF Soluciones Digitales</strong><span>. All Rights Reserved </span></div>
                 </div>
@@ -16,10 +13,8 @@ function Footer() {
                 </div>
               </div>
             </div>
-          </footer><a class="d-flex justify-content-center align-items-center back-to-top" href="#"><i class="bi bi-arrow-up-short"></i></a>
-        </div>
-      </div>
-    </footer>
+          <a class="d-flex justify-content-center align-items-center back-to-top" href="#"><i class="bi bi-arrow-up-short"></i></a>
+    </footer >
   );
 }
 
