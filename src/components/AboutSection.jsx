@@ -14,7 +14,7 @@ function AboutSection() {
             <p>
               <span style={{ color: 'inherit' }}>
                 Somos una agencia de marketing digital especializada en crear y
-                promover páginas web para pymes, emprendimientos y empresas.&nbsp;
+                promover páginas web para pequeñas y medianas empresas.&nbsp;
               </span>
               <br />
               <span style={{ color: 'inherit' }}>Nos basamos en tres pilares</span>
