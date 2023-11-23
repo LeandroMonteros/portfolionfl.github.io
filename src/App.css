@@ -81,13 +81,13 @@ h1, h2, h3, h4, h5, h6 {
 #header {
   z-index: 997;
   transition: all 0.5s;
-  padding: 22px 0;
+  padding: 20px 0;
   background: #fff;
 }
 
 #header.header-scrolled {
   box-shadow: 0px 2px 15px rgba(231, 15, 15, 0.1);
-  padding: 12px 0;
+  padding: 5px 0;
 }
 
 #header .logo img{
@@ -553,7 +553,7 @@ section {
 
 .about .content h3 {
   font-weight: 600;
-  font-size: 26px;
+  font-size: 28px;
 }
 
 .about .content ul {

@@ -11,39 +11,39 @@ function PricingSection() {
         <div className="row">
           <div className="col-md-6 col-lg-4">
             <div data-aos="zoom-in-right" data-aos-delay={200} className="box">
-              <h3>Free</h3>
+              <h3>Paquete Standar</h3>
               <ul>
-                <li>Aida dere</li>
-                <li>Nec feugiat nisl</li>
-                <li>Nulla at volutpat dola</li>
-                <li className="na">Pharetra massa</li>
-                <li className="na">Massa ultricies mi</li>
+                <li>Diseño y Desarrollo de Páginas Web</li>
+                <li className="na">Optimización SEO</li>
+                <li className="na">Gestión de Campañas Publicitarias</li>
+                <li className="na">Marketing de Contenidos</li>
+                <li className="na">Análisis y Reportes de Rendimiento</li>
               </ul>
               <div className="btn-wrap"><a href="#contact" className="btn-buy">Consultar Ahora</a></div>
             </div>
           </div>
           <div className="col-md-6 col-lg-4 mt-4 mt-md-0">
             <div data-aos="zoom-in" data-aos-delay={100} className="box recommended">
-              <h3>Business</h3>
+              <h3>Paquete Avanzado</h3>
               <ul>
-                <li>Aida dere</li>
-                <li>Nec feugiat nisl</li>
-                <li>Nulla at volutpat dola</li>
-                <li>Pharetra massa</li>
-                <li className="na">Massa ultricies mi</li>
+              <li>Diseño y Desarrollo de Páginas Web</li>
+              <li>Optimización SEO</li>
+              <li>Gestión de Campañas Publicitarias</li>
+                <li className="na">Marketing de Contenidos</li>
+                <li className="na">Análisis y Reportes de Rendimiento</li>
               </ul>
               <div className="btn-wrap"><a href="#contact" className="btn-buy">Consultar Ahora</a></div>
             </div>
           </div>
           <div className="col-md-6 col-lg-4 mt-4 mt-lg-0">
             <div data-aos="zoom-in-left" data-aos-delay={200} className="box">
-              <h3>Developer</h3>
+              <h3>Paquete Premium</h3>
               <ul>
-                <li>Aida dere</li>
-                <li>Nec feugiat nisl</li>
-                <li>Nulla at volutpat dola</li>
-                <li>Pharetra massa</li>
-                <li>Massa ultricies mi</li>
+              <li>Diseño y Desarrollo de Páginas Web</li>
+                <li>Optimización SEO</li>
+                <li>Gestión de Campañas Publicitarias</li>
+                <li>Marketing de Contenidos</li>
+                <li>Análisis y Reportes de Rendimiento</li>
               </ul>
               <div className="btn-wrap"><a href="#contact" className="btn-buy">Consultar Ahora</a></div>
             </div>
