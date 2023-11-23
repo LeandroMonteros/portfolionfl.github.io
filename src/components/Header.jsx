@@ -34,7 +34,7 @@ function Header() {
             <li><a className="nav-link scrollto" href="#services" onClick={() => setMobileMenuOpen(false)}>Servicios</a></li>
             <li><a className="nav-link scrollto" href="#portfolio" onClick={() => setMobileMenuOpen(false)}>Portafolio</a></li>
             <li><a className="nav-link scrollto" href="#pricing" onClick={() => setMobileMenuOpen(false)}>Paquetes</a></li>
-            <li><a className="nav-link scrollto" href="#contact" onClick={() => setMobileMenuOpen(false)}>Contact</a></li>
+            <li><a className="nav-link scrollto" href="#contact" onClick={() => setMobileMenuOpen(false)}>Contacto</a></li>
           </ul>
           <i className={`bi mobile-nav-toggle ${mobileMenuOpen ? 'bi-x' : 'bi-list'}`} onClick={() => setMobileMenuOpen(!mobileMenuOpen)}>
             {mobileMenuOpen ? <XLg /> : <List />}
