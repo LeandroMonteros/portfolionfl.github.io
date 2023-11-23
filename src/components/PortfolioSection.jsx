@@ -37,7 +37,7 @@ function PortfolioSection() {
                   <p>Hoteleria</p>
                   <div className="portfolio-links">
                     <a href={image1} data-gallery="portfolioGallery" className="portfolio-lightbox" title="App 1"></a>
-                    <a href="https://hotelserenidad.bss.design/"target="_blank"  title="More Details"><Link /></a>
+                    <a href="https://hotelserenidad.bss.design/"target="_blank"  title="More Details" rel="noreferrer"><Link /></a>
                   </div>
                 </div>
               </div>
@@ -52,7 +52,7 @@ function PortfolioSection() {
                   <p>Construccion</p>
                   <div className="portfolio-links">
                     <a href={image2} data-gallery="portfolioGallery" className="portfolio-lightbox" title="Web 3"></a>
-                    <a href="https://nicolasojea.github.io" target="_blank" title="More Details"><Link /></a>
+                    <a href="https://nicolasojea.github.io" target="_blank" title="More Details" rel="noreferrer"><Link /></a>
                   </div>
                 </div>
               </div>
@@ -67,7 +67,7 @@ function PortfolioSection() {
                   <p>Hoteleria</p>
                   <div className="portfolio-links">
                     <a href={image3} data-gallery="portfolioGallery" className="portfolio-lightbox" title="App 2"></a>
-                    <a href="https://hotelstar.bss.design/"target="_blank" title="More Details"><Link /></a>
+                    <a href="https://hotelstar.bss.design/"target="_blank" title="More Details" rel="noreferrer"><Link /></a>
                   </div>
                 </div>
               </div>
