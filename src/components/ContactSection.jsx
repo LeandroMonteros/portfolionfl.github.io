@@ -40,7 +40,7 @@ function ContactSection() {
     <section id="contact" className="contact">
       <div className="container">
         <div data-aos="fade-up" className="section-title">
-          <h2>Contactanos</h2>
+          <h2>Contacto</h2>
         </div>
         <div className="row">
           <div className="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay={100}>

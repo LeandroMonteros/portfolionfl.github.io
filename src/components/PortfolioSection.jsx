@@ -15,7 +15,7 @@ function PortfolioSection() {
     <section id="portfolio" className="portfolio">
       <div className="container">
         <div data-aos="fade-up" className="section-title">
-          <h2>Portfolio</h2>
+          <h2>Portafolio</h2>
           <p>Nuestro portafolio demuestra la calidad de nuestro trabajo</p>
         </div>
         <div className="row" data-aos="fade-up" data-aos-delay="200">
