@@ -734,7 +734,7 @@ section {
   transition: all 0.3s ease-in-out;
 }
 
-.services .icon i {
+.services .icon svg {
   font-size: 36px;
   line-height: 1;
   color: #fff;
@@ -764,7 +764,7 @@ section {
   background: #fff;
 }
 
-.services .icon-box:hover .icon i {
+.services .icon-box:hover .icon svg {
   color: #3498db;
 }
 
