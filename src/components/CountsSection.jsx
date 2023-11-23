@@ -33,12 +33,12 @@ function CountsSection() {
                                     </div>
                                 </div>
                                 <div className="col-md-6 d-md-flex align-items-md-stretch">
-                                    <div className="count-box"><Clock /><span className="purecounter" data-purecounter-start="0" data-purecounter-end="18" data-purecounter-duration="1"></span>
+                                    <div className="count-box"><Clock /><span className="purecounter" data-purecounter-start="0" data-purecounter-end="2" data-purecounter-duration="1"></span>
                                         <p><strong>Años de experiencia</strong> Más de una década liderando el camino en el mundo digital.</p>
                                     </div>
                                 </div>
                                 <div className="col-md-6 d-md-flex align-items-md-stretch">
-                                    <div className="count-box"><Award /><span className="purecounter" data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1"></span>
+                                    <div className="count-box"><Award /><span className="purecounter" data-purecounter-start="0" data-purecounter-end="3" data-purecounter-duration="1"></span>
                                         <p><strong>Premios</strong> "Reconocidos por nuestra excelencia, nuestros premios son testimonio de dedicación.</p>
                                     </div>
                                 </div>
