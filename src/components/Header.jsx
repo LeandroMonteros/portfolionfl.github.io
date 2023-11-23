@@ -1,9 +1,25 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import logo from '../img/logo solo.png';
 
 function Header() {
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const isScrolled = window.scrollY > 10;
+      if (isScrolled !== scrolled) {
+        setScrolled(isScrolled);
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, [scrolled]);
   return (
-    <header className="d-flex align-items-center fixed-top" id="header">
+    <header className={`d-flex align-items-center fixed-top ${scrolled ? 'header-scrolled' : ''}`} id="header">
       <div className="container d-flex justify-content-between align-items-center">
         <div className="logo">
           <img src={logo} alt="Logo" />
