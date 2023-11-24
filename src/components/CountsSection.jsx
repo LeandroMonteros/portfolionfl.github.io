@@ -1,5 +1,5 @@
 import React, {useEffect} from 'react';
-import imgcounts from '../img/counts-img.svg';
+import imgcounts from '../img/counts.jpg';
 import { Clock } from 'react-bootstrap-icons';
 import { EmojiSmile } from 'react-bootstrap-icons';
 import { JournalRichtext } from 'react-bootstrap-icons';
