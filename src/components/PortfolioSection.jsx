@@ -22,8 +22,8 @@ function PortfolioSection() {
           <div className="col-lg-12 d-flex justify-content-center">
             <ul id="portfolio-flters">
               <li onClick={() => handleFilterClick('*')} className={filter === '*' ? 'filter-active' : ''}>Todos</li>
-              <li onClick={() => handleFilterClick('.filter-app')} className={filter === '.filter-app' ? 'filter-active' : ''}>Hoteleria</li>
-              <li onClick={() => handleFilterClick('.filter-card')} className={filter === '.filter-card' ? 'filter-active' : ''}>Construccion</li>
+              {/*<li onClick={() => handleFilterClick('.filter-app')} className={filter === '.filter-app' ? 'filter-active' : ''}>Hoteleria</li>*/}
+              {/*<li onClick={() => handleFilterClick('.filter-card')} className={filter === '.filter-card' ? 'filter-active' : ''}>Construccion</li>*/}
             </ul>
           </div>
         </div>

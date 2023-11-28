@@ -16,7 +16,7 @@ function PricingSection() {
                 <li>Diseño y Desarrollo de Páginas Web</li>
                 <li className="na">Optimización SEO</li>
                 <li className="na">Gestión de Campañas Publicitarias</li>
-                <li className="na">Marketing de Contenidos</li>
+                <li className="na">Diseño de marca</li>
                 <li className="na">Análisis y Reportes de Rendimiento</li>
               </ul>
               <div className="btn-wrap"><a href="#contact" className="btn-buy">Consultar Ahora</a></div>
@@ -29,7 +29,7 @@ function PricingSection() {
               <li>Diseño y Desarrollo de Páginas Web</li>
               <li>Optimización SEO</li>
               <li>Gestión de Campañas Publicitarias</li>
-                <li className="na">Marketing de Contenidos</li>
+                <li className="na">Diseño de marca</li>
                 <li className="na">Análisis y Reportes de Rendimiento</li>
               </ul>
               <div className="btn-wrap"><a href="#contact" className="btn-buy">Consultar Ahora</a></div>
@@ -42,7 +42,7 @@ function PricingSection() {
               <li>Diseño y Desarrollo de Páginas Web</li>
                 <li>Optimización SEO</li>
                 <li>Gestión de Campañas Publicitarias</li>
-                <li>Marketing de Contenidos</li>
+                <li>Diseño de marca</li>
                 <li>Análisis y Reportes de Rendimiento</li>
               </ul>
               <div className="btn-wrap"><a href="#contact" className="btn-buy">Consultar Ahora</a></div>

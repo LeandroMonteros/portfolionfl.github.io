@@ -19,8 +19,8 @@ function App() {
       <main>
         <AboutSection />
         <CountsSection />
-        <ServicesSection />
         <PortfolioSection />
+        <ServicesSection />
         <PricingSection />
         <ContactSection />
       </main>

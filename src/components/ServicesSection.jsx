@@ -26,8 +26,8 @@ function ServicesSection() {
           <div className="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
             <div data-aos="fade-up" data-aos-delay={200} className="icon-box">
               <div className="icon"><FileBarGraph /></div>
-              <h4 className="title"><a href>Gestión de Redes Sociales</a></h4>
-              <p className="description">Estrategias y contenido para impulsar la presencia y compromiso en plataformas sociales.</p>
+              <h4 className="title"><a href>Diseño de marca</a></h4>
+              <p className="description">Creacion Isologo/Imagotipo, Definicion de brief, Tipografia a eleccion, Archivo vectorial.</p>
             </div>
           </div>
           <div className="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">

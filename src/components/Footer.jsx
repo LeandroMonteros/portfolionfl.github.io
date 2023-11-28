@@ -9,7 +9,7 @@ function Footer() {
                   <div class="copyright"><span> © Copyright </span><strong>LNF Soluciones Digitales</strong><span>. All Rights Reserved </span></div>
                 </div>
                 <div class="col-lg-6">
-                  <nav class="text-center footer-links text-lg-right pt-2 pt-lg-0"><a href="#" class="scrollto">Inicio</a><a href="#about" class="scrollto">Nosotros</a><a href="#services">Servicios</a><a href="#portfolio">Portafolio</a><a href="#pricing" class="scrollto">Paquetes</a></nav>
+                  <nav class="text-center footer-links text-lg-right pt-2 pt-lg-0"><a href="#" class="scrollto">Inicio</a><a href="#about" class="scrollto">Nosotros</a><a href="#portfolio">Portafolio</a><a href="#services">Servicios</a><a href="#pricing" class="scrollto">Paquetes</a></nav>
                 </div>
               </div>
             </div>

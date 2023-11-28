@@ -573,6 +573,11 @@ section {
   padding-top: 0;
 }
 
+.counts .box {
+  padding-top: 0;
+  margin-left: 116px;
+}
+
 .counts .content {
   padding: 0;
 }
