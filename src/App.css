@@ -577,6 +577,12 @@ section {
   padding-top: 0;
   margin-left: 116px;
 }
+@media screen {
+  .counts .box {
+    margin-left: 0;
+  }
+  
+}
 
 .counts .content {
   padding: 0;
