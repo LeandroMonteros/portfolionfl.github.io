@@ -485,6 +485,11 @@ section {
   position: relative;
   color: #222222;
 }
+@media (max-width: 768px) {
+  .section-title h2 {
+    font-size: 28px;
+  }
+}
 
 .section-title h2::before, .section-title h2::after {
   content: "";
@@ -597,6 +602,9 @@ section {
 .counts .content p {
   margin-bottom: 0;
 }
+.counts .content .counts-box {
+  margin-left: 100px;
+}
 
 .counts .content .count-box {
   padding: 20px 0;
@@ -642,6 +650,11 @@ section {
   color: #6f6f6f;
 }
 
+@media (max-width: 1024px) {
+  .counts .content .counts-box {
+    margin-left: 0;
+  }
+}
 @media (max-width: 1024px) {
   .counts .image {
     text-align: center;
@@ -741,6 +754,15 @@ section {
 
 .services .icon-box:hover .icon svg {
   color: #000056;
+}
+
+.services .row-bot{
+  margin-top: 50px;
+}
+@media (max-width: 1024px) {
+  .services .row-bot {
+    margin-top: 0px;
+  }
 }
 
 /* --------------------------------------------------------------

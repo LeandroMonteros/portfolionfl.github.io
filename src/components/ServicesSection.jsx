@@ -1,5 +1,5 @@
 import React from 'react';
-import { GlobeAmericas, Speedometer,FileBarGraph, Cursor } from 'react-bootstrap-icons';
+import { GlobeAmericas, Speedometer,FileBarGraph, Cursor, Instagram } from 'react-bootstrap-icons';
 
 function ServicesSection() {
   return (
@@ -9,28 +9,37 @@ function ServicesSection() {
           <h2>servicios</h2>
         </div>
         <div className="row">
-          <div className="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+          <div className="col-md-4 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-0">
             <div data-aos="fade-up" data-aos-delay={400} className="icon-box">
               <div className="icon"><GlobeAmericas /></div>
               <h4 className="title"><a href>Diseño y Desarrollo Web</a></h4>
               <p className="description">Creación de sitios web atractivos, funcionales y optimizados para una experiencia óptima.</p>
             </div>
           </div>
-          <div className="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+          <div className="col-md-4 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-0">
             <div data-aos="fade-up" data-aos-delay={300} className="icon-box">
               <div className="icon"><Speedometer /></div>
               <h4 className="title"><a href>Publicidad Digital</a></h4>
               <p className="description">Campañas en línea estratégicas para aumentar el alcance y la conversión de clientes potenciales.</p>
             </div>
           </div>
-          <div className="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+          <div className="col-md-4 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div data-aos="fade-up" data-aos-delay={300} className="icon-box">
+              <div className="icon"><Instagram /></div>
+              <h4 className="title"><a href>Redes Sociales</a></h4>
+              <p className="description">Desarrollo de piezas graficas y audiovisuales para redes sociales, Diseño de estrategias de Comunicación y Marketing Digital.</p>
+            </div>
+          </div>
+        </div>
+        <div className="row justify-content-center row-bot">
+          <div className="col-md-7 col-lg-4 d-flex align-items-stretch mb-5">
             <div data-aos="fade-up" data-aos-delay={200} className="icon-box">
               <div className="icon"><FileBarGraph /></div>
               <h4 className="title"><a href>Diseño de marca</a></h4>
               <p className="description">Creacion Isologo/Imagotipo, Definicion de brief, Tipografia a eleccion, Archivo vectorial.</p>
             </div>
           </div>
-          <div className="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+          <div className="col-md-7 col-lg-4 d-flex align-items-stretch mb-5">
             <div data-aos="fade-up" data-aos-delay={100} className="icon-box">
               <div className="icon"><Cursor /></div>
               <h4 className="title"><a href>Optimización SEO</a></h4>
