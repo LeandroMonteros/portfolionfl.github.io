@@ -16,6 +16,7 @@ function PricingSection() {
                 <li>Diseño y Desarrollo de Páginas Web</li>
                 <li className="na">Optimización SEO</li>
                 <li className="na">Gestión de Campañas Publicitarias</li>
+                <li className="na">Gestión de redes sociales</li>
                 <li className="na">Diseño de marca</li>
                 <li className="na">Análisis y Reportes de Rendimiento</li>
               </ul>
@@ -29,6 +30,7 @@ function PricingSection() {
               <li>Diseño y Desarrollo de Páginas Web</li>
               <li>Optimización SEO</li>
               <li>Gestión de Campañas Publicitarias</li>
+              <li>Gestión de redes sociales</li>
                 <li className="na">Diseño de marca</li>
                 <li className="na">Análisis y Reportes de Rendimiento</li>
               </ul>
@@ -42,6 +44,7 @@ function PricingSection() {
               <li>Diseño y Desarrollo de Páginas Web</li>
                 <li>Optimización SEO</li>
                 <li>Gestión de Campañas Publicitarias</li>
+                <li>Gestión de redes sociales</li>
                 <li>Diseño de marca</li>
                 <li>Análisis y Reportes de Rendimiento</li>
               </ul>
