@@ -48,16 +48,16 @@ function ContactSection() {
               <h3>LNF Soluciones Digitales</h3>
               <p>Somos una agencia de marketing digital especializada en crear y promover páginas web para pymes, emprendimientos y empresas. </p>
               <div className="social-links">
-                <a href="https://api.whatsapp.com/send/?phone=543515145145&text&type=phone_number&app_absent=0" target="_blank" className="twitter">
+                <a href="https://api.whatsapp.com/send/?phone=543515145145&text&type=phone_number&app_absent=0" target="_blank" className="twitter" rel="noreferrer">
                   <i className="bi bi-twitter" /><Whatsapp></Whatsapp>
                 </a>
-                <a href="https://www.facebook.com/profile.php?id=61553481997984&mibextid=ZbWKwL" target="_blank" className="facebook">
+                <a href="https://www.facebook.com/profile.php?id=61553481997984&mibextid=ZbWKwL" target="_blank" className="facebook" rel="noreferrer">
                   <i className="bi bi-facebook" /><Facebook></Facebook>
                 </a>
-                <a href="https://instagram.com/lnf_solucionesdigitales?igshid=NzZlODBkYWE4Ng==" target="_blank" className="instagram">
+                <a href="https://www.instagram.com/lnf_soluciones/" target="_blank" className="instagram" rel="noreferrer">
                   <i className="bi bi-instagram" /><Instagram></Instagram>
                 </a>
-                <a href="#Contact" target="_blank" className="linkedin">
+                <a href="https://www.linkedin.com/company/lnf-soluciones-digitales" target="_blank" className="linkedin" rel="noreferrer">
                   <i className="bi bi-linkedin" /><Linkedin></Linkedin>
                 </a>
               </div>
