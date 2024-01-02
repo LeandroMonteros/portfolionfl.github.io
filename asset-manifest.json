@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/portfolionfl.github.io/static/css/main.9fdcfb73.css",
-    "main.js": "/portfolionfl.github.io/static/js/main.1caf0dbb.js",
-    "static/js/787.529bd718.chunk.js": "/portfolionfl.github.io/static/js/787.529bd718.chunk.js",
-    "static/media/portafolio-2.jpeg": "/portfolionfl.github.io/static/media/portafolio-2.fc1a743260a7a5ac2b6a.jpeg",
-    "static/media/portafolio-3.jpeg": "/portfolionfl.github.io/static/media/portafolio-3.c219a2cb82028fed9b84.jpeg",
-    "static/media/portafolio-1.jpeg": "/portfolionfl.github.io/static/media/portafolio-1.0579912fa765d6ee9483.jpeg",
-    "static/media/counts-img.svg": "/portfolionfl.github.io/static/media/counts-img.4558949326fbbd853f2b130b81232940.svg",
-    "static/media/hero-img.png": "/portfolionfl.github.io/static/media/hero-img.53f1b5467e5095dc4126.png",
-    "static/media/logo solo.png": "/portfolionfl.github.io/static/media/logo solo.683458b48f020c2a7753.png",
-    "index.html": "/portfolionfl.github.io/index.html",
-    "main.9fdcfb73.css.map": "/portfolionfl.github.io/static/css/main.9fdcfb73.css.map",
-    "main.1caf0dbb.js.map": "/portfolionfl.github.io/static/js/main.1caf0dbb.js.map",
-    "787.529bd718.chunk.js.map": "/portfolionfl.github.io/static/js/787.529bd718.chunk.js.map"
+    "main.css": "/static/css/main.bb9ce6d8.css",
+    "main.js": "/static/js/main.7c0de315.js",
+    "static/js/787.529bd718.chunk.js": "/static/js/787.529bd718.chunk.js",
+    "static/media/portafolio-2.jpeg": "/static/media/portafolio-2.fc1a743260a7a5ac2b6a.jpeg",
+    "static/media/portafolio-3.jpeg": "/static/media/portafolio-3.c219a2cb82028fed9b84.jpeg",
+    "static/media/portafolio-1.jpeg": "/static/media/portafolio-1.0579912fa765d6ee9483.jpeg",
+    "static/media/counts-img.svg": "/static/media/counts-img.4558949326fbbd853f2b130b81232940.svg",
+    "static/media/hero-img.png": "/static/media/hero-img.53f1b5467e5095dc4126.png",
+    "static/media/logo solo.png": "/static/media/logo solo.683458b48f020c2a7753.png",
+    "index.html": "/index.html",
+    "main.bb9ce6d8.css.map": "/static/css/main.bb9ce6d8.css.map",
+    "main.7c0de315.js.map": "/static/js/main.7c0de315.js.map",
+    "787.529bd718.chunk.js.map": "/static/js/787.529bd718.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9fdcfb73.css",
-    "static/js/main.1caf0dbb.js"
+    "static/css/main.bb9ce6d8.css",
+    "static/js/main.7c0de315.js"
   ]
 }
