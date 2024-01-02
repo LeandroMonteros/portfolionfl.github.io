@@ -15,21 +15,24 @@ const ObjectivesSection = () => {
       const objectivesText3 = {
         title: "Medición de resultados",
         description: "Nada define más el éxito del marketing digital que su capacidad de medir, en tiempo real, cada resultado. Cada paso dado dentro de una estrategia online puede ser acompañado y analizado.¿Has enviado un email promocional? Mide la tasa de apertura y de conversión y descubre cuántas personas lo abrieron y cuántas adquirieron la promoción.",
-        bgColor: "#5F0AA2",
+        bgColor: "#5F0A56",
       };
       const objectivesText4 = {
         title: "Fortalecer la marca ",
         description: "Un sitio web bien desarrollado también se convierte en una forma de fortalecer tu marca. El término conocido como Brand Awareness se mejora al brindar a los visitantes una experiencia positiva en tus páginas. Como decíamos, la credibilidad se acaba reforzando con una página de calidad y esto se refleja en la fuerza que tiene tu marca en el mercado.",
-        bgColor: "#8614CB",
+        bgColor: "#861456",
       };
 
     return (
         <section id='Objetive'>
             <div className='listObjetives'>
-            <Objetivo {...objectivesText1} />
+                <div className='box'>
+                <Objetivo {...objectivesText1} />
             <Objetivo {...objectivesText2} />
             <Objetivo {...objectivesText3} />
             <Objetivo {...objectivesText4} />
+                </div>
+            
             </div>
         </section>
         

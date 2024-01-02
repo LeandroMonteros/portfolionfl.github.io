@@ -5,12 +5,12 @@ import mejor from '../img/mejor-visibilidad.png';
 
 const Objetivos = ({ title, description, bgColor }) => {
     const sectionStyle = {
-        backgroundColor: bgColor,
+        background: `linear-gradient(to right, ${bgColor}, #29BDF4)`,
     };
 
     return (
-        <div className="container">
-            <div className="objetivos" style={sectionStyle}>
+        <div className="container"  style={sectionStyle}>
+            <div className="objetivos">
                 <h3>{title}</h3>
                 <div className="contente">
                     <img src={mejor} className="img-fluide" alt="Mejor visibilidad" />

@@ -584,10 +584,13 @@ section {
   list-style: none;
 }
 
+.box{
+  box-shadow: #000056 1px 1px 10px 3px;
+}
+
 .objetivos {
   width: 100%;
   overflow: hidden;
-  background-color: #000056;
   color: rgb(255, 255, 255);
   padding: 40px 20px;
   height: 40px; /* Adjust the initial height as needed */
@@ -641,8 +644,9 @@ h3 {
 
 .objetivos:hover h3 {
   margin-right: 0; /* Reset margin on hover */
-  color: #3498db;
+  color: #db34a3;
   transition: color 0.5s ease-in-out, margin-right 0.7s ease-in-out;
+  
 }
 
 /* --------------------------------------------------------------
